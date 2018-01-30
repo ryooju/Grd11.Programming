@@ -18,7 +18,7 @@ if input.include? "$"
   end
 
 if input.numeric?
-    input = input.to_i  
+  input = input.to_i  # should be same level of indent as if statement below it
 
   if input < 0
     puts "Sorry, you can't withdraw a negative number"
