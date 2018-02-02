@@ -27,7 +27,7 @@ while true
     puts "|"
     puts "-------------"
     
-    class_list.each do |name|
+    class_list.sort.each do |name|
       puts name
     end
     puts "Total Students: #{class_list.length}"
