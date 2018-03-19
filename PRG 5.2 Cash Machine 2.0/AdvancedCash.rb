@@ -160,7 +160,6 @@ def withdraw_screen(currency)
   end
 end
 
-
 # ----- CUI -----
 curr = ""
 input = ""
