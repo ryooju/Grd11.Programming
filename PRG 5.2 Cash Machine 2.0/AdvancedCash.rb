@@ -78,6 +78,11 @@ def deposit_cash(currency, amount)
   
   amount = amount.to_i
   
+  unless amount > 0
+    puts "WARNING: Amount Need to be postive number"
+    return false
+  end
+  
   balance = check_balance(currency)
   balance += amount
   set_balance(currency, balance)
